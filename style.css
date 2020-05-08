@@ -1,0 +1,465 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #316DC3;
+    color: white;
+    font-size: 14;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+button {
+    padding: 5px 10px;
+    color: green;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+}
+
+.social-icon {
+    display: flex;
+}
+
+.social-icon i {
+    padding: 15px;
+    margin-top: 2px;
+    color: white;
+}
+
+.social-icon a:hover {
+    background-color: rgb(81, 132, 202);
+}
+
+
+
+
+.navigation-bar {
+    height: 67px;
+    background-color: #F7F8FA;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+
+
+
+nav p {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    padding: 10px;
+    list-style: none;
+    position: relative;
+    font-size: 13px;
+}
+
+nav ul li:hover {
+    background-color: #316DC3;
+    border-radius: 50px;
+}
+
+nav ul li a {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin: 0px;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    width: 170px;
+    top: 104%;
+    height: 120px;
+    padding-top: 17px;
+    left: -4%;
+}
+
+nav ul li:hover ul {
+    display: block;
+
+}
+
+nav ul li ul li a {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li ul li a:hover {
+    background-color: #316DC3;
+    border: 2px solid rgb(105, 158, 231);
+    z-index: 1;
+}
+
+nav ul li ul li {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+}
+
+
+
+/* nav ul li ul li .nav-1 ul a {
+    border: 1px solid black;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+}
+
+nav ul li ul li .nav-1 ul a:hover {
+    background-color: #316DC3;
+    border: 2px solid rgb(105, 158, 231);
+} */
+
+.Introduction {
+    padding: 0px 280px;
+    height: 650px;
+    /* width: 1519px;
+    height: 706px; */
+    background-color: #F7F8FA;
+}
+
+.Introduction h1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #316DC3;
+    padding-top: 60px;
+    font-size: 32px;
+}
+
+.Introduction span {
+    color: green;
+}
+
+.Introduction img {
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.Introduction p {
+    text-align: justify;
+    /* padding-left: 287px;
+    padding-right: 287px; */
+    color: #727273;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    word-spacing: 0.2em;
+    line-height: 1.6em;
+}
+
+.Introduction-logo-box {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+
+}
+
+.Introduction-logo-box .Introduction-line {
+    padding: 0px 18px;
+    margin: 5px 13px;
+    border-bottom: 2px solid green;
+}
+
+
+.divider {
+    height: 290px;
+    background-color: #2755E9;
+    
+}
+
+.divider .divider-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+
+}
+
+.divider .divider-box .divider-col {
+    text-align: center;
+    padding: 14px 60px;
+}
+
+
+.divider .divider-number {
+    font-size: 33px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+.divider .divider-text {
+    font-size: 9px;
+    font-family: 'Merriweather', serif;
+    color: white;
+}
+
+.divider .divider-text span {
+    color: #00FF00;
+    font-size: 17px;
+}
+
+.container{
+    background-color: rgb(245, 245, 245);
+    height: 700px;
+}
+
+.container .container-box .container-heading {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #316DC3;
+    padding-top: 60px;
+    font-size: 20px;
+}
+.container .container-box .container-heading span {
+    color: green;
+}
+
+
+.container .container-box{
+    padding: 0px 25px;
+}
+
+.container .container-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container .container-row .container-col {
+    font-family: 'Merriweather', serif;
+    font-size: 12px;
+    color: #316DC3;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 53px 10px;
+    line-height: 35px;
+    margin: 10px 10px;
+    width: 25%;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16)
+    
+}
+
+.mission-cont {
+    margin-left: 175px;
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+}
+
+.mission-cont .mission-box {
+    width: 60%;
+
+}
+
+.mission-cont .mission-box .mission-header {
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #316DC3;
+    margin-top: 40px;
+}
+
+.mission-cont .mission-box .mission-row{
+    width: 730px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.mission-cont .mission-box .mission-row .a {
+    display: flex;
+    width: 350px;
+    height: 245px;
+    padding: 35px 0px;
+    /* background-color: chartreuse; */
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mission-cont .mission-box .mission-row .a .mission-col {
+    border: 1px solid #DBDBDB;
+    background-color: #F7F8FA;
+    width: 360px;
+    padding: 15px 15px;
+    text-align: center;
+    display: flex;
+    
+}
+
+.mission-cont .mission-box .mission-row .a .mission-col .mission-img {
+    padding-right: 40px;
+}
+
+.mission-cont .mission-box .mission-row .a .mission-col .mission-h2 {
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mission-cont .events .events-header {
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    color: #316DC3;
+    margin-top: 40px;
+}
+
+.mission-cont .events .event-box {
+    margin-top: 42px;
+}
+
+.mission-cont .events .event-box marquee{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6px;
+    margin-top: 45px;
+}
+
+
+.img-gallery .img-gallery-box .img-header {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #316DC3;
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.img-gallery .img-gallery-box .img-header span {
+    color: green;
+}
+
+.img-gallery .img-gallery-box .images {
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
+
+.footer .footer-box {
+    height: 400px;
+    background-color: #25272E;
+    display: flex;
+}
+
+.footer .footer-box .col-1 {
+    color: #BBBBBB;
+    line-height: 2em;
+    font-size: 14px;
+    padding: 5% 8%;
+    width: 40%;
+    height: 100%;
+}
+
+.footer .footer-box .col-1 .br {
+    line-height: 2em;
+}
+
+.footer .footer-box .col-1 .icon {
+    color: green;
+    padding: 0px 10px;
+}
+
+.footer .footer-box .col-2 {
+    font-weight: bold;
+    color: white;
+    /* background-color: yellow; */
+    width: 25%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    padding-top: 5%;
+    margin-right: 2%;
+
+}
+
+.footer .footer-box .col-2 .border {
+
+    border-bottom: 1px solid #444444;
+
+}
+
+.footer .footer-box .col-2 .border-2 {
+    border-bottom: 2px solid green;
+    width: 60px;
+    padding-top: 10px;
+}
+
+.footer .footer-box .col-3 {
+    font-weight: bold;
+    color: white;
+    width: 25%;
+    height: 100%;
+    font-family: 'Merriweather', serif;
+    padding-top: 5%;
+
+}
+
+.footer .footer-box .col-3 .icons {
+    background-color: #316DC3;
+    padding: 3%;
+    border-radius: 25px;
+    margin: 2%;
+}
+
+.footer .footer-box .col-3 a{
+    color: white;
+}
+
+.footer .footer-box .col-3 a:visited {
+    color: white;
+}
+
+.copyright .copyright-cont {
+    background-color: #316DD9;
+    padding: 1% 0%;
+
+}
+
+.copyright .copyright-cont .paragraph {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.copyright .copyright-cont .paragraph p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: white;
+
+}
